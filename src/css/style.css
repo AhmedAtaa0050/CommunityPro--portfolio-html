@@ -48,6 +48,12 @@ html {
   scroll-behavior: smooth;
 }
 
+img,
+button,
+a {
+  user-select: none;
+}
+
 /* Reset default styling */
 * {
   margin: 0;
@@ -257,7 +263,8 @@ body {
   }
 }
 
-@media (max-width: 768px) {}
+@media (max-width: 768px) {
+}
 
 @media (max-width: 670px) {
   .navbar .nav-menu {
